@@ -1,0 +1,35 @@
+.mainHeading {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.headerImage {
+    display: none;
+}
+.headerContent {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    width: 80%;
+    margin: 20px auto 40px;
+}
+
+@media screen and (min-width: 450px) {
+   .wrapperHeader {
+       display: flex;
+   }
+   .headerImage {
+       display: block;
+       z-index: 2;
+    }
+    .mainHeading {
+        font-size: 38px;
+        text-align: left;
+    }
+    .headerContent {
+        text-align: left;
+        margin: 20px 0 40px;
+    }
+}

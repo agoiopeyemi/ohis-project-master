@@ -1,0 +1,37 @@
+.wrapperFooter {
+    padding: 40px;
+    font-size: 18px;
+    color: #E5E5E5;
+    text-align: center;
+    background: #282C38;
+}
+.customerService {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.serviceEnail {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 450px) {
+    .wrapperFooter {
+        padding: 40px 100px;
+    }
+    
+    .containerFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .companyContact {
+        order: 2;
+
+    }
+    .customerService {
+        text-align: right;
+    }
+    // .copyright {
+    //     order: 0;
+    // }
+ }
