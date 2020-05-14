@@ -1,0 +1,49 @@
+.containerHeader {
+    padding: 25px 60px;
+}
+.containerLogoNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+.containerLogo {
+    display: flex;
+    align-items: center;
+}
+.logoTitle {
+    font-size: 12px;
+    color: #253031;
+    line-height: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.containerNav {
+    font-size: 12px;
+    color: #253031;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.nav {
+    margin-left: 10px;
+}
+
+.headerMainContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerContentHeading {
+    font-size: 36px;
+    color: #253031;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: 'Playfair Display', serif;
+}
+.headerContentDescription {
+    width: 90%;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #253031;
+    line-height: 29px;
+}
