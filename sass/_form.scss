@@ -1,0 +1,69 @@
+.containerInputBtn {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    margin: 0 auto;
+}
+.headerInput {
+    font-size: 16px;
+    color:  #80898A;
+    line-height: 19px;
+
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #EBEBEB;
+    border: 1px solid #EBEBEB;
+}
+.headerButton {
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+
+    padding: 20px;
+    border-radius: 5px;
+    background: #0099FF;
+    border: 1px solid #0099FF;
+}
+.containerWebInputBtn {
+    display: none;
+}
+
+@media screen and (min-width: 450px) {
+    .containerInputBtn {
+        flex-direction: row;
+        margin: 0;
+
+    }
+    .headerInput {
+        padding: 20px;
+        margin-right: 15px;
+    }
+    .headerButton {
+        padding: 0;
+    }
+    .containerInputBtn {
+        display: none;
+
+    }
+    .containerWebInputBtn {
+        display: flex;
+    }
+    .webHeaderInput {
+        border-radius: 5px;
+        padding: 15px 70px 15px 15px;
+        background: #EBEBEB;
+        border: 1px solid #EBEBEB;
+        margin-right: 20px;
+    }
+    .webHeaderBtn {
+        padding: 0 20px;
+        border-radius: 5px;
+        background: #0099FF;
+        border: 1px solid #0099FF;
+
+    }
+    
+}

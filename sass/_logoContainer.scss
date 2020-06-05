@@ -1,0 +1,38 @@
+
+.containerLogoSubtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+.logoHeading {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-left: 15px;
+}
+.logoNav {
+    display: none;
+}
+
+@media screen and (min-width: 450px) {
+    .wrapperLogo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoNav {
+        display: flex;
+
+        font-size: 20px;
+        color: #253031;
+        font-weight: bold;
+        line-height: 22px;
+        text-transform: capitalize;
+    }
+    .nav {
+        margin-left: 15px;
+    }
+}
