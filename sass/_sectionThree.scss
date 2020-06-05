@@ -1,0 +1,94 @@
+.containerSectionThree {
+    background: #E7EFF5;
+    padding: 30px 60px;
+}
+.sectionThreeHeading {
+    font-size: 24px;
+    color: #0099FF;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: 'Playfair Display';
+}
+.sectionThreeSubheading {
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+.containerSectionThreeContent {
+    display: flex;
+    justify-content: space-between;
+}
+.sectionThreeContent {
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 25px 100px 25px 25px;
+}
+.sectionThreeContentHeading {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 36px;
+    font-family: 'Playfair Display';
+}
+.sectionThreeConntentAmount {
+    font-size: 36px;
+    font-weight: 900;
+    color: #0099FF;
+    line-height: 43px;
+    margin-bottom: 15px;
+}
+.fa-check-circle {
+    color: #0099FF;
+    margin-right: 5px;
+}
+.sectionThreePackages {
+    font-size: 16px;
+    color: #80898A;
+    line-height: 29px;
+}
+.fa-arrow-right {
+    color: #0099FF;
+}
+.sectionThreePackageLink {
+    font-size: 16px;
+    color: #253031;
+    font-weight: bold;
+    line-height: 19px;
+    margin-top: 35px;
+}
+.promoHeading {
+    margin-top: 60px;
+}
+
+
+
+
+
+@media all and (min-width: 850px) {
+   
+}
+
+
+
+@media all and (max-width: 450px) {
+    .containerSectionThree {
+        padding: 50px 20px;
+    }
+    .sectionThreeHeading, 
+    .sectionThreeSubheading {
+        text-align: center;
+    }
+    .containerSectionThreeContent {
+        justify-content: none;
+        overflow-x: auto;
+    }
+    .mobileContainerSectionThreeContent, 
+    .mobilePromoHeading, 
+    .mobileSectionThreePromoSubHeading {
+        display: none;
+    }
+    .sectionThreeContent {
+        flex-shrink: 0;
+        margin-right: 10px;
+    }
+}

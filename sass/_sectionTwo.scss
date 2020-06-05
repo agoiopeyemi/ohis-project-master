@@ -1,0 +1,73 @@
+.containerSectionTwo {
+    padding: 40px;
+    background: #ffffff;
+    
+    // margin: auto;
+}
+.wrapperSectionTwo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    margin: 0 auto;
+}
+.governorImg {
+    width: 400%;
+    height: 400%;
+    // margin-right: 20px;
+    border-radius: 100%;
+}
+.sectionTwoContent {
+    margin-left: 170px;
+}
+.sectionTwoDescription {
+    width: 80%;
+    font-size: 18px;
+    color: #253031;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display';
+}
+.governorName {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 29px;
+}
+.governorPosition {
+    font-size: 16px;
+    color: #80898A;
+    line-height: 29px;
+}
+
+
+
+@media all and (max-width: 450px) {
+    .containerSectionTwo {
+        padding: 20px;
+    }
+    .wrapperSectionTwo {
+        flex-direction: column;
+
+        width: 100%;
+    }
+    .sectionTwoContent {
+        margin-left: 0;
+    }
+    .governorImg {
+        width: 100%;
+        height: 100%;
+    }
+    .sectionTwoDescription {
+        width: 90%;
+        margin: 25px auto;
+        line-height: 36px;
+        text-align: center;
+    }
+    .governorName, 
+    .governorPosition {
+        text-align: center;
+    }
+}
