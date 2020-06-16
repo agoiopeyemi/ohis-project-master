@@ -124,6 +124,10 @@ p, h1 {
   .headerMainContent {
     flex-direction: column; }
 
+  .containerHeaderInput {
+    display: flex;
+    flex-direction: column; }
+
   .headerContentHeading {
     font-size: 24px; }
 
@@ -283,30 +287,26 @@ p, h1 {
   .mobileSectionOneContentMargin {
     margin-bottom: 20px; } }
 .containerSectionTwo {
-  padding: 40px;
-  background: #ffffff; }
-
-.wrapperSectionTwo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
-  margin: 0 auto; }
-
-.governorImg {
-  width: 400%;
-  height: 400%;
-  border-radius: 100%; }
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 20px 60px; }
 
 .sectionTwoContent {
-  margin-left: 170px; }
+  display: flex;
+  align-items: center; }
 
-.sectionTwoDescription {
-  width: 80%;
+.governorImg {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  margin-right: 60px; }
+
+.governorDescription {
+  width: 70%;
   font-size: 18px;
-  color: #253031;
-  line-height: 30px;
-  margin-bottom: 15px;
+  color: #4f5c5e;
+  line-height: 36px;
+  margin-bottom: 20px;
   font-family: 'Playfair Display'; }
 
 .governorName {
@@ -318,31 +318,27 @@ p, h1 {
 .governorPosition {
   font-size: 16px;
   color: #80898A;
+  font-weight: bold;
   line-height: 29px; }
 
 @media all and (max-width: 450px) {
   .containerSectionTwo {
-    padding: 20px; }
-
-  .wrapperSectionTwo {
-    flex-direction: column;
-    width: 100%; }
-
-  .sectionTwoContent {
-    margin-left: 0; }
+    width: none;
+    padding: 40px 45px; }
 
   .governorImg {
-    width: 100%;
-    height: 100%; }
+    margin-right: 0;
+    margin-bottom: 20px; }
 
-  .sectionTwoDescription {
-    width: 90%;
-    margin: 25px auto;
-    line-height: 36px;
+  .sectionTwoContent {
+    display: flex;
+    flex-direction: column; }
+
+  .governorDescription {
+    width: 100%;
     text-align: center; }
 
-  .governorName,
-  .governorPosition {
+  .governorTitle {
     text-align: center; } }
 .containerSectionThree {
   background: #E7EFF5;
@@ -513,141 +509,6 @@ p, h1 {
   .wrapperExecutive {
     flex-direction: row;
     margin: 0 auto; } }
-.containerCompany {
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  margin-bottom: 15px; }
-
-.companySubtitle {
-  font-size: 20px;
-  color: #1954EC;
-  line-height: 22px; }
-
-.companyTitle {
-  color: #000;
-  margin: 10px 0;
-  font-size: 26px;
-  line-height: 36px;
-  font-weight: bold;
-  text-transform: capitalize; }
-
-.companyDescription {
-  width: 80%;
-  font-size: 20px;
-  color: #80898A;
-  line-height: 29px; }
-
-.governorImg {
-  width: 70%;
-  height: 70%;
-  border-radius: 100%; }
-
-.executiveDescription {
-  font-size: 22px;
-  color: #253031;
-  line-height: 36px;
-  text-align: center;
-  width: 90%;
-  margin: 40px 0; }
-
-.governorName {
-  color: #000;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 29px;
-  text-align: center; }
-
-.governorExecutive {
-  font-weight: bold;
-  margin-bottom: 5px; }
-
-.executiveTitle {
-  color: #80898A; }
-
-.containerCompanyPlatform {
-  display: none; }
-
-@media screen and (min-width: 450px) {
-  .company {
-    display: flex; }
-
-  .wrapperCompany {
-    display: none; }
-
-  .containerCompanyPlatform {
-    margin-top: -15%;
-    padding: 180px 0 30px 80px;
-    background: #0099FF;
-    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-    display: flex;
-    flex-direction: column; }
-
-  .companyPlatformHeading {
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 48px; }
-
-  .platformSubheading {
-    font-size: 16px;
-    color: #90D2FF;
-    line-height: 29px;
-    margin-bottom: 25px; }
-
-  .containerContent {
-    padding: 30px;
-    background: #fff;
-    border-radius: 10px; }
-
-  .containerContent p {
-    font-size: 16px;
-    color: #80898A;
-    margin: 15px 0;
-    line-height: 29px; }
-
-  .containerContent h3 {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    color: #000; }
-
-  .container2 {
-    width: 70%; }
-
-  .containerContent h4 {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 22px;
-    color: #1954EC; }
-
-  .wrapperContent {
-    display: flex; }
-
-  .spaceBetween {
-    margin-left: 35px; }
-
-  .spaceBelow {
-    margin-bottom: 35px; }
-
-  .executiveDescription {
-    text-align: left; }
-
-  .governorName {
-    text-align: left; }
-
-  .governorImg {
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;
-    margin-right: 100px; }
-
-  .containerWebExecutive {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px 0; } }
 .containerHeaderInput {
   font-size: 16px;
   line-height: 19px; }
@@ -665,6 +526,9 @@ p, h1 {
   padding: 15px;
   color: #80898A;
   margin-right: 15px; }
+
+.mobileContainerHeaderInput {
+  display: none; }
 
 .headerContentButton {
   padding: 15px;
@@ -693,17 +557,46 @@ p, h1 {
 .containerWebInputBtn {
   display: none; }
 
-@media screen and (min-width: 450px) {
+.containerSectionThreeButton {
+  text-align: center;
+  margin-top: 60px; }
+
+.sectionThreeButton {
+  border-radius: 5px;
+  background: #0099FF;
+  border: 1px solid #0099FF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  padding: 15px 40px; }
+
+@media screen and (max-width: 450px) {
   .containerInputBtn {
     flex-direction: row;
     margin: 0; }
+
+  .containerHeaderInput {
+    display: none; }
 
   .headerInput {
     padding: 20px;
     margin-right: 15px; }
 
+  .mobileContainerHeaderInput {
+    display: block; }
+
+  .mobileHeaderInputSpace {
+    margin-bottom: 15px; }
+
   .headerButton {
     padding: 0; }
+
+  .containerSectionThreeButton {
+    margin-top: 30px; }
+
+  .sectionThreeButton {
+    padding: 15px 60px; }
 
   .containerInputBtn {
     display: none; }
@@ -853,6 +746,9 @@ p, h1 {
 .companyContact {
   text-align: right; }
 
+.customerService {
+  text-transform: capitalize; }
+
 .contacts {
   order: 2;
   text-align: right; }
@@ -867,6 +763,12 @@ p, h1 {
   .containerFooter {
     flex-direction: column;
     justify-content: center; }
+
+  .companyContact {
+    text-align: center; }
+
+  .customerService {
+    margin-bottom: 15px; }
 
   .contacts {
     order: 0;

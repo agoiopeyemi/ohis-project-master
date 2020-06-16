@@ -16,6 +16,9 @@
 .companyContact {
     text-align: right;
 }
+.customerService {
+    text-transform: capitalize;
+}
 .contacts {
     order: 2;
     text-align: right;
@@ -33,6 +36,12 @@
     .containerFooter {
         flex-direction: column;
         justify-content: center;
+    }
+    .companyContact {
+        text-align: center;
+    }
+    .customerService {
+        margin-bottom: 15px;
     }
     .contacts {
         order: 0;
