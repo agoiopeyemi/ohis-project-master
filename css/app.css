@@ -86,13 +86,10 @@ p, h1 {
 .nav {
   margin-left: 10px; }
 
-.headerMainContent {
+.webHeaderContent {
   display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.headerContent {
-  text-align: center; }
+  align-items: flex-start;
+  justify-content: flex-start; }
 
 .headerContentHeading {
   font-size: 36px;
@@ -109,7 +106,7 @@ p, h1 {
   line-height: 29px; }
 
 .headerImage {
-  z-index: 99; }
+  z-index: 3; }
 
 @media all and (max-width: 450px) {
   .containerHeader {
@@ -127,6 +124,9 @@ p, h1 {
   .containerHeaderInput {
     display: flex;
     flex-direction: column; }
+
+  .headerContents {
+    text-align: center; }
 
   .headerContentHeading {
     font-size: 24px; }
@@ -191,19 +191,6 @@ p, h1 {
 
   .headerImage {
     z-index: 99; } }
-.headerInput {
-  font-size: 13px;
-  color: #80898A;
-  line-height: 19px;
-  border-radius: 5px;
-  border: 1px solid #EBEBEB;
-  padding: 10px 15px; }
-
-.headerButton {
-  color: #fff;
-  border-radius: 5px;
-  background: #0099FF; }
-
 .containerSectionOne {
   background: #0099FF;
   margin-top: -180px;
@@ -344,6 +331,10 @@ p, h1 {
   background: #E7EFF5;
   padding: 30px 60px; }
 
+.sectionThreeWrapper {
+  width: 90%;
+  margin: 0 auto; }
+
 .sectionThreeHeading {
   font-size: 24px;
   color: #0099FF;
@@ -404,6 +395,9 @@ p, h1 {
 @media all and (max-width: 450px) {
   .containerSectionThree {
     padding: 50px 20px; }
+
+  .sectionThreeWrapper {
+    width: 100%; }
 
   .sectionThreeHeading,
   .sectionThreeSubheading {
@@ -582,6 +576,9 @@ p, h1 {
   .headerInput {
     padding: 20px;
     margin-right: 15px; }
+
+  .headerInpute {
+    margin-right: 0; }
 
   .mobileContainerHeaderInput {
     display: block; }

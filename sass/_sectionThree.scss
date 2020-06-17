@@ -1,6 +1,11 @@
 .containerSectionThree {
     background: #E7EFF5;
     padding: 30px 60px;
+    
+}
+.sectionThreeWrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 .sectionThreeHeading {
     font-size: 24px;
@@ -73,6 +78,9 @@
 @media all and (max-width: 450px) {
     .containerSectionThree {
         padding: 50px 20px;
+    }
+    .sectionThreeWrapper {
+        width: 100%;
     }
     .sectionThreeHeading, 
     .sectionThreeSubheading {
