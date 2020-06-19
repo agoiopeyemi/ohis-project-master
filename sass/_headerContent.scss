@@ -1,5 +1,5 @@
-.containerHeader {
-    padding: 25px 60px;
+.containerHeaders {
+    padding: 25px 120px;
 }
 .containerLogoNav {
     display: flex;
@@ -45,8 +45,9 @@
     line-height: 48px;
     font-family: 'Playfair Display', serif;
 }
-.headerContentDescription {
+.headersContentDescription {
     width: 90%;
+    
     margin: 15px 0;
     font-size: 16px;
     color: #253031;
@@ -54,6 +55,10 @@
 }
 .headerImage {
     z-index: 3;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 
