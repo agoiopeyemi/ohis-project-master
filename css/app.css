@@ -806,5 +806,153 @@ p, h1 {
 
   .customerService {
     text-align: right; } }
+.formOneWrapper {
+  padding: 40px 20px 120px 20px; }
+
+.formOneLogo {
+  margin-left: 80px; }
+
+.formOneMainContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.formOneMainHeading {
+  font-size: 36px;
+  color: #253031;
+  line-height: 48px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display'; }
+
+.formOneSubheading {
+  width: 38%;
+  font-size: 14px;
+  color: #80898A;
+  line-height: 29px;
+  text-align: center;
+  font-weight: normal; }
+
+.containerFormOneFieldset {
+  border-radius: 20px;
+  border-top: 10px solid #EBEBEB; }
+
+.formOneFieldSet {
+  display: flex; }
+
+.formOneSetSpace {
+  margin-right: 100px; }
+
+.formOneLabel {
+  font-size: 14px;
+  color: #80898A;
+  line-height: 19px;
+  margin-bottom: 10px;
+  margin-top: 15px; }
+
+.formOneInput {
+  border-radius: 5px;
+  background: #EBEBEB;
+  border: 1px solid #EBEBEB;
+  padding: 10px 20px; }
+
+.containerformOneLinkBtns {
+  width: 52%;
+  margin: 0 auto; }
+
+.wrapperFormOneLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 75px; }
+
+.formOneLink {
+  width: 60%;
+  font-size: 9px;
+  color: #0099FF;
+  line-height: 22px;
+  font-weight: bold;
+  text-decoration-line: underline; }
+
+.containerFormOneButton {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold; }
+
+.formOneButtonTwo {
+  color: #fff;
+  border-radius: 5px;
+  background: #0099FF;
+  border: 1px solid #0099FF;
+  padding: 10px 15px;
+  margin-left: 20px;
+  text-transform: capitalize; }
+
+.formOneButtonOne {
+  border: none;
+  color: #80898A;
+  background: #fff;
+  text-transform: capitalize; }
+
+.mobileContainerFieldset {
+  display: none; }
+
+@media all and (max-width: 450px) {
+  .formOneWrapper {
+    padding: 60px 35px; }
+
+  .formOneLogo {
+    margin-left: 0;
+    text-align: center; }
+
+  .formOneMainHeading {
+    text-align: center; }
+
+  .formOneSubheading {
+    width: 100%; }
+
+  .mobileContainerFieldset {
+    display: block; }
+
+  .formOneFieldSet {
+    display: none; }
+
+  .formOneSetSpace {
+    margin-right: 0; }
+
+  .formOneMainContent {
+    display: block; }
+
+  .webFormOneFieldset {
+    display: none; }
+
+  .wrapperFormOneLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 0; }
+
+  .formOneLink {
+    order: 1;
+    width: 100%;
+    font-size: 12px;
+    text-align: center; }
+
+  .containerFormOneButton {
+    display: flex;
+    flex-direction: column; }
+
+  .formOneButtonOne {
+    order: 1; }
+
+  .formOneButtonTwo {
+    margin-left: 0;
+    padding: 20px 140px;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=app.css.map */
